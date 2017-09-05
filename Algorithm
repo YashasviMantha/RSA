@@ -1,0 +1,17 @@
+RSA involves use of public and private key for its operation. The keys are generated using the following steps:-
+
+1.Two prime numbers are selected as p and q
+2.n = pq which is the modulus of both the keys.
+3.Calculate totient = (p-1)(q-1)
+4.Choose e such that e > 1 and coprime to totient which means gcd (e, totient) must be equal to 1, e is the public key
+
+
+5.Choose d such that it satisfies the equation de = 1 + k (totient), d is the private key not known to everyone.
+6.Cipher text is calculated using the equation c = m^e mod n where m is the message.
+7.With the help of c and d we decrypt message using equation m = c^d mod n where d is the private key.
+
+
+
+
+
+dont use rand use PRNGs

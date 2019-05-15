@@ -1,4 +1,4 @@
 # RSA
 RSA cryptocraphy in c
-
-Created By Yashasvi(Dump7)!! ;)
+My first OpenSource Code. :)
+Created By Yashasvi(Dump7)!!
